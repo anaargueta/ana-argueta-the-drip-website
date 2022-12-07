@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Drip</title>
+ <!-- STYLESHEET & FONTS -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Social Icons -->
+    <script src="https://kit.fontawesome.com/6121bc98f2.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+  <!-- MAIN NAVIGATION -->
+  <header>
+    <nav>
+    <div class ="container">
+    <a href="Home.html"><img class="logo" src="TheDripLogo.png" alt="The Drip logo"></a>
+     <div class = "menu">
+    <a href="Home.html" class="is-active" id="underline">Home</a>
+    <a href="Shop.html" id="underline">Shop</a>
+    <a href="About.html" id="underline">About</a>
+    <a href="Contact.html" id="underline">Contact</a>
+    <a href="#"><img src="search.png" class="nav" alt="Search Icon"> </a>
+    <a href="#"><img src="cart.png" id="cart-icon" alt="cart-icon"> </a>
+  </div>
+
+ <!-- MOBILE NAVIGATION -->
+ <button class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+     </button>
+    
+  </nav>
+  </header>
+
+  <nav class="mobile-nav"> 
+    <a href="Home.html" id="underline">Home</a>
+    <a href="Shop.html" id="underline">Shop</a>
+    <a href="About.html" id="underline">About</a>
+    <a href="Contact.html" id="underline">Contact</a>
+    <a href="" id="underline">Cart</a>
+  </nav>
+
+ 
+
+     <!-- Cart Icon -->
+     <img src="cart.png" id="add-cart" alt="cart-icon">
+    
+
+     <!-- CART -->
+     <div class="cart">
+         <h2 class="cart-title">YOUR CART</h2>
+         <!-- Cart Content -->
+         <div class="cart-content">
+         </div>
+         <!-- Total -->
+         <div class="total">
+             <div class="total-title">Total</div>
+             <div class="total-price">$0</div>
+ 
+         <!-- Buy Button -->
+         <button type="button" class="buy-btn">Complete Purchase</button>
+         <!-- Cart Close -->  
+         <i class="fa-solid fa-xmark" id="close-cart"></i>
+ 
+         </div>
+     </div>
+
+    <!-- CONTACT CONTENT -->
+<section class="page-title">
+    <h1> Contact Us</h1> <br>
+    <h2>Send us your thoughts or questions.</h2> <br>
+   
+        <form class="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your E-mail" required>
+            <input type="text" id="phone" placeholder="Your Digits" required>
+            <textarea id="message" rows="4" placeholder="Type Away..." required> </textarea>
+            <button class="contact-button" type="submit">Send It</button>
+        </form>
+   
+</section>
+
+
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="col-1">
+        <img src="LOGO FOOTER.png" alt="The Drip logo">
+      </div>
+
+      <div class="col-2">
+        <h3>Stay Updated On Drops</h3>
+        <form>
+          <input type="email" placeholder="Your Email Address" required>
+          <button type="submit">Subscribe</button>
+          <h4>©2022 The Drip. All rights reserved.  |  Terms of use   |  Privacy Policy</h4>
+        </div>
+        </form>
+        <div class="col-3">
+          <h3>FOLLOW US</h3>
+          <div class="social-icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+
+       
+      </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
